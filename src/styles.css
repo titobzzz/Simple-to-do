@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #006d5b;
+}
+.App_Container {
+  background-color: white;
+  align-items: center;
+  padding: 30px 40px;
+  border-radius: 20px;
+  width: 550px;
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: between;
+  align-items: center;
+}
+.header {
+  margin: 20px;
+  margin-bottom: 30px;
+}
+h4 {
+  margin: 0px;
+  color: #0096ff;
+  font-family: "poppins";
+}
+.input_container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+}
+input {
+  padding: 8px 20px;
+  border: 0px;
+  border-bottom: 1px grey solid;
+  margin-right: 10px;
+  width: 60%;
+}
+input::placeholder {
+  font-family: "poppins";
+}
+.InputAddButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  max-width: 150px;
+  background-color: #006d5b;
+  border-radius: 10px;
+  gap: 10px;
+  margin-left: 20px;
+  color: rgb(150, 150, 150);
+}
+input:focus {
+  border: 0px grey solid;
+  font-family: "poppins";
+}
+.InputAddButton button {
+  background-color: #006d5b;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  font-family: "poppins";
+}
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RenderingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.notCompleted {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fffdd0;
+  gap: 15px;
+  border: 0px;
+  margin: 10px;
+  width: 130px;
+  border-radius: 20px;
+  padding: 20px;
+  height: 80px;
+}
+.todoContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d3d3d3;
+  gap: 15px;
+  margin: 10px;
+  border: 0px;
+  border-radius: 20px;
+  padding: 20px;
+  text-decoration: line-through;
+  opacity: 40%;
+  width: 140px;
+}
+.todoContainer .maintodo {
+  text-decoration: line-through;
+  color: red;
+  opacity: 40%;
+  gap: 18px;
+}
+.icon_container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.emptyError {
+  color: red;
+  margin: 20px;
+}
+.mappedList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.renderingImage {
+  margin: 40px;
+}
